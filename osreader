@@ -7,10 +7,10 @@ name = platform.uname()
 
 if dist[0] == "":
     print("OS specific modules avalible are " + os.name)
-    print("Your OS is " + name[0] + " "  + name[2] + " kernal of " + name[3])
+    print("Your OS is " + name[0] + " "  + name[2] + " with a kernal of " + name[3])
 else:
     print("OS specific modules avalible are " + os.name)
-    print("Your OS is " + dist[0] + " with version number "  + dist[1] + " kernal of " + name[2])
+    print("Your OS is " + dist[0] + " "  + dist[1] + " with a kernal of " + name[2])
     
 print("Your CPU structure is " + platform.machine())
 
